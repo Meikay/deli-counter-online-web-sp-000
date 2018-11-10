@@ -24,6 +24,6 @@ def now_serving(other_deli)
   else
     #serve katz_deli.length
     #.unshift from katz_deli.length
-    puts "Currently serving #{katz_deli.shift}."
+    puts "Currently serving #{other_deli.shift}."
   end
 end
