@@ -22,8 +22,8 @@ def now_serving(other_deli)
   if other_deli.empty?
     puts "There is nobody waiting to be served!"
   else
-    #serve katz_deli.length
-    #.unshift from katz_deli.length
+    #serve other_deli
+    #remove first element from the array
     puts "Currently serving #{other_deli.shift}."
   end
 end
